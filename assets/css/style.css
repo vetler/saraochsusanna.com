@@ -6,7 +6,7 @@ body {
 .markdown-body {
     max-width: 650px;
     display: block;
-    margin: 8% auto;
+    margin: 0% auto;
 }
 
 h1 {
@@ -21,7 +21,7 @@ img#main {
     -webkit-box-shadow: 1px 1px 5px #333;
     -moz-box-shadow: 1px 1px 5px #333;
     display: block;
-    margin: 0 auto;
+    margin: 10% auto;
 }
 
 img#coming-soon {
