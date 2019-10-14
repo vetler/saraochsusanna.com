@@ -6,7 +6,7 @@ layout: default
 ---
 {::options parse_block_html="true" /}
 <div class="container" id="top">
-<div class="item">
+<div class="item headerphoto">
 ![Sara och Susanna]({{ site.url }}/assets/images/sara-och-susanna.jpg){: #main}
 </div>
 <div class="item podcast-links">

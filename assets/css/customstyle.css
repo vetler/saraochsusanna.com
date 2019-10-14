@@ -8,8 +8,12 @@ body {
     display: block;
 }
 
+.headerphoto {
+max-width:650px;  
+}
+
 img#main {
-    max-width: 650px;
+    max-width:100%;
     border: solid #fff;
     border-width: 6px 6px 20px 6px;
     box-shadow: 1px 1px 5px #333;
