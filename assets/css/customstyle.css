@@ -1,27 +1,22 @@
 body {
     background-color: white;
     color: black;
-}
-
-.markdown-body {
-    max-width: 650px;
-    display: block;
     margin: 0 auto;
 }
 
-h1 {
-    display: none;
+.markdown-body {
+    display: block;
 }
 
 img#main {
-    width: 95%;
+    max-width: 650px;
     border: solid #fff;
     border-width: 6px 6px 20px 6px;
     box-shadow: 1px 1px 5px #333;
     -webkit-box-shadow: 1px 1px 5px #333;
     -moz-box-shadow: 1px 1px 5px #333;
     display: block;
-    margin: 10% auto;
+    margin-left: 10px;
 }
 
 img#coming-soon {
@@ -29,4 +24,26 @@ img#coming-soon {
     margin: 0 auto;
     width: 80%;
     padding-top: 10px;
+}
+
+#top {
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.podcast-links {
+  max-width: 650px;
+  margin-left: 14px;
+}
+
+
+/* Flexbox setup */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-grow: 1;
 }
